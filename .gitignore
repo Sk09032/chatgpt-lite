@@ -1,0 +1,20 @@
+# Ignore compiled output
+*.class
+/build/
+/dist/
+
+# Ignore log files
+*.log
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore sensitive information
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Include a specific file despite a general ignore rule
+!src/important_config.js

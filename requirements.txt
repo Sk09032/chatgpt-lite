@@ -1,0 +1,13 @@
+langchain-community
+langchain_chroma
+langchain_huggingface
+chromadb
+pypdf
+streamlit
+langchain-groq
+faiss-cpu
+langgraph
+langchain-cerebras
+langchain-cohere
+langchain-tavily
+pydantic
