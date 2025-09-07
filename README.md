@@ -73,12 +73,6 @@ This project demonstrates **multi-path reasoning** with intelligent routing betw
     COHERE_API_KEY=your-cohere-api-key
     TAVILY_API_KEY=your-tavily-api-key
 
-
-
 5. **Run the app**
    ```bash
    streamlit run app.py
-
-
-
-
