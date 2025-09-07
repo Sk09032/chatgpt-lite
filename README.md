@@ -37,4 +37,8 @@ This project demonstrates **multi-path reasoning** with intelligent routing betw
 ---
 
 ## 📂 Project Structure
+├── app.py # Main Streamlit application
+├── requirements.txt # Project dependencies
+├── .env # API keys (Cohere, Tavily)
+└── README.md # Project documentation
 
