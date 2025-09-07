@@ -57,27 +57,27 @@ This project demonstrates **multi-path reasoning** with intelligent routing betw
    cd chatgpt-lite
 
 
-setup:
-  create_virtualenv:
-    command: |
-      python -m venv venv
-      source venv/bin/activate   # On Mac/Linux
-      venv\Scripts\activate      # On Windows
+2. **Create a virtual environment**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Mac/Linux
+    venv\Scripts\activate      # On Windows
 
-  install_dependencies:
-    command: |
-      pip install -r requirements.txt
+3. **Install dependencies**
+   ```bash
+    pip install -r requirements.txt
 
-  set_env_variables:
-    file: .env
-    variables:
-      COHERE_API_KEY: your-cohere-api-key
-      TAVILY_API_KEY: your-tavily-api-key
+4. **Set up environment variables**
+   Create a .env file with:
+   ```ini
+    COHERE_API_KEY=your-cohere-api-key
+    TAVILY_API_KEY=your-tavily-api-key
 
-  run_app:
-    command: |
-      streamlit run app.py
 
+
+5. **Run the app**
+   ```bash
+   streamlit run app.py
 
 
 
