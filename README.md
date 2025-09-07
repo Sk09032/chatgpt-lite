@@ -37,11 +37,13 @@ This project demonstrates **multi-path reasoning** with intelligent routing betw
 ---
 
 ## 📂 Project Structure  
-├── myenv 
-├── chatbot.py  
-├── testing_file.ipynb
-├── requirements.txt 
-├── .gitignore  
-└── README.md 
+
+├── myenv                 # Virtual environment folder  
+├── chatbot.py            # Main Streamlit chatbot application  
+├── testing_file.ipynb    # Jupyter notebook for testing/debugging  
+├── requirements.txt      # Project dependencies  
+├── .gitignore            # Git ignore rules  
+└── README.md             # Project documentation  
+
 
 
