@@ -47,3 +47,38 @@ This project demonstrates **multi-path reasoning** with intelligent routing betw
 
 
 
+---
+
+## ⚡ Setup & Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Sk09032/chatgpt-lite.git
+   cd chatgpt-lite
+
+
+setup:
+  create_virtualenv:
+    command: |
+      python -m venv venv
+      source venv/bin/activate   # On Mac/Linux
+      venv\Scripts\activate      # On Windows
+
+  install_dependencies:
+    command: |
+      pip install -r requirements.txt
+
+  set_env_variables:
+    file: .env
+    variables:
+      COHERE_API_KEY: your-cohere-api-key
+      TAVILY_API_KEY: your-tavily-api-key
+
+  run_app:
+    command: |
+      streamlit run app.py
+
+
+
+
+
