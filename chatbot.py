@@ -75,12 +75,12 @@ Answer:
 )
 
 
-st.title("Mini Chat GPT")
+st.title("ChatGPT Lite")
 with st.sidebar:
     # Fetching the thread ID from user input
-    thread_id = st.text_input("Enter a thread ID (Change this to see the past interaction of user, format should be thread-x (x is a number))", value="thread-1")
+    thread_id = st.text_input("Enter a thread ID (Change this to see the past interactions of user, format should be thread-x (x is a number))", value="thread-1")
     
-    uploaded_files = st.file_uploader("Upload PDFs", type=["pdf"], accept_multiple_files=False)
+    uploaded_files = st.file_uploader("Upload PDF", type=["pdf"], accept_multiple_files=False)
     
     # Making different user interfaces using threads
     if "THREAD_STORE" not in st.session_state:
