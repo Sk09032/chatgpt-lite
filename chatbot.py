@@ -42,7 +42,7 @@ all_tools=[tavily_search_tool]
 # Initializing cohere LLM with tool call
 
 llm = init_chat_model("command-a-03-2025", model_provider="cohere")
-llm_for_classification = init_chat_model("command-a-03-2025", model_provider="cohere")
+llm_for_classification = init_chat_model("llama-3.3-70b-versatile", model_provider="groq")
 structured_llm_for_classification=llm_for_classification.with_structured_output(QuestionClassifierSchema)
 llm_with_tools=llm.bind_tools(all_tools)
 
