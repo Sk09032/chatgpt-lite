@@ -27,7 +27,7 @@ COHERE_API_KEY = os.getenv('COHERE_API_KEY')
 TAVILY_API_KEY = os.getenv('TAVILY_API_KEY')
 
 class QuestionClassifierSchema(BaseModel):
-    question: Literal["RAG", "Search_node"]
+    question: Literal["RAG", "Search_node","Normal"]
 
 # Initializing cohere embeddings
 cohere_embeddings = CohereEmbeddings(
