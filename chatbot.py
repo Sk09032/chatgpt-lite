@@ -139,7 +139,7 @@ if uploaded_files:
 def retrieve_context(state: ChatState):
     question = state["question"]
     if retriever:
-        context_docs = retriever.get_relevant_documents(question)
+        context_docs = retriever.invoke(question)
         context = "\n\n".join([doc.page_content for doc in context_docs])
     else:
         context = ""
